@@ -27,7 +27,9 @@ title: SOLO 0418 直播
 transition: fade-out
 ---
 
-# 开场：我的闭关历程
+# 开场
+
+## 我的闭关历程
 
 回顾过去的几年，每年的 11 月 15 日对我都有特殊意义：
 
@@ -46,7 +48,7 @@ transition: fade-out
 transition: slide-up
 ---
 
-# 认知升级与迭代
+## 认知升级与迭代
 
 行业日新月异，认知在飞速跃迁：
 
@@ -61,7 +63,7 @@ layout: center
 class: text-center
 ---
 
-# SOLO 独立版发布
+## SOLO 独立版发布
 
 正因为认知迭代太快，我们一直在奔跑。
 
@@ -73,14 +75,19 @@ class: text-center
 layout: section
 ---
 
-# 实践：SOLO Powers SOLO
-## 在前线看到了什么
+# 实践
+
+## SOLO Powers SOLO：在前线看到了什么
+
+<div class="flex justify-center mt-8">
+  <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=An%20engineer%20collaborating%20with%20an%20AI%20assistant.%20Minimal%20hand-drawn%20illustration%2C%20off-white%20paper%20background%2C%20dark%20gray%20sketch%20lines%2C%20muted%20umbrella%20yellow%20as%20the%20only%20accent%20color%2C%20lots%20of%20negative%20space%2C%20Notion-like%20doodle%20aesthetic%2C%20faceless%20round-headed%20human%20figure%2C%20clean%20editorial%20composition%2C%20conceptual%20rather%20than%20literal%2C%20simple%20background%2C%20no%20realism%2C%20no%203D%2C%20no%20painterly%20texture%2C%20no%20high%20saturation%2C%20no%20complex%20scene%2C%20no%20photographic%20detail.%20Add%20one%20short%20Chinese%20quote%20%22%E4%BA%BA%E6%9C%BA%E5%8D%8F%E5%90%8C%22%20in%20a%20natural%20handwritten%20style%20near%20the%20bottom.%20The%20overall%20mood%20is%20restrained%2C%20lucid%2C%20slightly%20ironic%2C%20and%20emotionally%20calm.&image_size=landscape_16_9" class="w-160 rounded-xl shadow-lg border border-gray-200" />
+</div>
 
 ---
 transition: slide-up
 ---
 
-# 实践：吃自己的狗粮
+## 吃自己的狗粮
 
 我们在开发 SOLO 独立版的过程中，把自己作为最佳实践：
 
@@ -92,7 +99,7 @@ transition: slide-up
 
 ---
 
-# 实践中的 Good (令人兴奋的变化)
+## 实践中的 Good (令人兴奋的变化)
 
 - **团队认知在跃迁：** 迈向 AI 自主编程阶段（AI为主力，人做决策和监督）。测试等维护成本大幅下降。
 - **知识显性化的探索：** 从个人隐性知识 ➡️ 团队知识 ➡️ AI 能读懂的 Skill 文件。
@@ -108,7 +115,7 @@ transition: slide-up
 
 ---
 
-# 实践中的 Bad (真实的挑战)
+## 实践中的 Bad (真实的挑战)
 
 坦白说，我们也遇到了不少真实的问题：
 
@@ -125,11 +132,13 @@ transition: slide-up
 layout: section
 ---
 
-# 趋势：基于实践，我们看到两个方向
+# 趋势
+
+基于实践，我们看到两个方向
 
 ---
 
-# 趋势 1：场景泛化 — More Than Coding
+## 趋势 1：场景泛化 — More Than Coding
 
 AI Coding 正在从"产品能力"变成"基础设施能力"。
 
@@ -143,7 +152,7 @@ SOLO 独立版提供 **Code 模式** (面向编程) 与 **Work 模式** (面向�
 
 ---
 
-# 趋势 2：协作模式变化 — 从执行者到决策者
+## 趋势 2：协作模式变化 — 从执行者到决策者
 
 - **角色定位升级：** 从 In the Loop ➡️ On the Loop（在环外监督）。
   - 设定约束、委派任务、审查结果。
