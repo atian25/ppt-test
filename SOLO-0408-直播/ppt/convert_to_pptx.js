@@ -1,6 +1,7 @@
 const fs = require('fs');
 const cheerio = require('cheerio');
 const pptxgen = require('pptxgenjs');
+const path = require('path');
 
 async function createPPTX() {
     const htmlContent = fs.readFileSync('index.html', 'utf-8');
@@ -48,7 +49,7 @@ async function createPPTX() {
         if (content) {
             slide.addText(content, { 
                 x: 0.5, y: title ? 3.0 : 2.0, 
-                w: 8.5, h: 2, 
+                w: 5.5, h: 2, 
                 fontSize: 20, 
                 color: secondaryColor,
                 breakLine: true
@@ -85,7 +86,18 @@ async function createPPTX() {
             });
         }
         
-        // Note: Skipping images to prevent ETIMEDOUT from remote downloading in restricted sandbox
+        // Extract local Images
+        const img = $(element).find('img').first();
+        if (img.length > 0) {
+            const imgSrc = img.attr('src');
+            // If it's a local path like images/01-slide-image.png
+            if (imgSrc && !imgSrc.startsWith('http')) {
+                const localImgPath = path.join(__dirname, imgSrc);
+                if (fs.existsSync(localImgPath)) {
+                    slide.addImage({ path: localImgPath, x: 5.5, y: 1.5, w: 4.2, h: 2.36 });
+                }
+            }
+        }
     });
 
     const outPath = 'SOLO_0418_直播.pptx';
