@@ -48,9 +48,9 @@ async function createPPTX() {
         
         if (content) {
             slide.addText(content, { 
-                x: 0.5, y: title ? 3.0 : 2.0, 
-                w: 5.5, h: 2, 
-                fontSize: 20, 
+                x: 0.5, y: title ? 2.5 : 1.8, 
+                w: 8.5, h: 1.5, 
+                fontSize: 18, 
                 color: secondaryColor,
                 breakLine: true
             });
@@ -65,12 +65,13 @@ async function createPPTX() {
                 const nb = $(statEl).find('.stat-nb').text().trim();
                 const note = $(statEl).find('.stat-note').text().trim();
 
-                slide.addText(nb, { x: startX, y: 3.0, w: 2, h: 1, fontSize: 40, bold: true, color: textColor });
-                slide.addText(label, { x: startX, y: 4.2, w: 2, h: 0.5, fontSize: 16, color: secondaryColor });
+                // Adjusted sizes and heights to prevent overlapping
+                slide.addText(nb, { x: startX, y: 3.2, w: 2.2, h: 0.8, fontSize: 32, bold: true, color: textColor, breakLine: true });
+                slide.addText(label, { x: startX, y: 4.1, w: 2.2, h: 0.4, fontSize: 14, color: secondaryColor });
                 if (note) {
-                    slide.addText(note, { x: startX, y: 4.7, w: 2, h: 0.5, fontSize: 12, color: secondaryColor });
+                    slide.addText(note, { x: startX, y: 4.5, w: 2.2, h: 0.4, fontSize: 10, color: secondaryColor });
                 }
-                startX += 2.5;
+                startX += 2.4;
             });
         }
 
