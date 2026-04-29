@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Coding 基础设施化</title>
+  <desc id="desc">AI Coding 像水电一样进入研发、设计、测试和运维链路。</desc>
+  <rect width="1600" height="900" fill="#f7f5f2"/>
+  <g fill="none" stroke="#111820" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M238 614h1124" opacity=".2"/>
+    <path d="M316 614V300h968v314" opacity=".35"/>
+    <rect x="236" y="218" width="208" height="164" rx="24" fill="#fff"/>
+    <rect x="514" y="218" width="208" height="164" rx="24" fill="#fff"/>
+    <rect x="792" y="218" width="208" height="164" rx="24" fill="#fff"/>
+    <rect x="1070" y="218" width="208" height="164" rx="24" fill="#fff"/>
+    <rect x="382" y="524" width="208" height="164" rx="24" fill="#fff"/>
+    <rect x="696" y="524" width="208" height="164" rx="24" fill="#fff"/>
+    <rect x="1010" y="524" width="208" height="164" rx="24" fill="#fff"/>
+    <path d="M340 382v142M618 382v90h-132v52M896 382v142M1174 382v90h-60v52" stroke="#4a6cf7"/>
+    <path d="M292 286h96M292 326h72M570 286h96M570 326h72M848 286h96M848 326h72M1126 286h96M1126 326h72" opacity=".38"/>
+    <path d="M438 592h96M438 632h72M752 592h96M752 632h72M1066 592h96M1066 632h72" opacity=".38"/>
+  </g>
+  <g font-family="Inter, 'Noto Sans SC', sans-serif" fill="#111820">
+    <text x="284" y="274" font-size="27" font-weight="800">需求</text>
+    <text x="562" y="274" font-size="27" font-weight="800">设计</text>
+    <text x="840" y="274" font-size="27" font-weight="800">编码</text>
+    <text x="1118" y="274" font-size="27" font-weight="800">测试</text>
+    <text x="430" y="580" font-size="27" font-weight="800">发布</text>
+    <text x="744" y="580" font-size="27" font-weight="800">运维</text>
+    <text x="1058" y="580" font-size="27" font-weight="800">知识库</text>
+    <text x="584" y="784" font-size="32" font-weight="800">AI Coding as Infrastructure</text>
+  </g>
+</svg>

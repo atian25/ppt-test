@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SOLO 独立版封面插画</title>
+  <desc id="desc">一个人、AI Agent 与工程工具协同工作的杂志风信息图。</desc>
+  <rect width="1600" height="900" fill="#f7f5f2"/>
+  <path d="M144 742C281 645 353 514 478 448c154-81 254 34 404-25 138-54 159-191 303-230 95-26 187 3 271 48" fill="none" stroke="#111820" stroke-width="4" stroke-linecap="round" opacity=".18"/>
+  <path d="M161 207c89 29 149 80 212 153 58 66 112 139 215 131 121-10 155-127 286-145 102-14 182 42 247 92 76 60 144 123 270 122" fill="none" stroke="#4a6cf7" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <g transform="translate(226 255)" fill="none" stroke="#111820" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="188" cy="148" r="64" fill="#fff"/>
+    <path d="M188 213v161M112 286h151M137 441l51-67 53 67"/>
+    <rect x="342" y="116" width="420" height="276" rx="22" fill="#fff"/>
+    <path d="M382 171h330M382 224h258M382 277h196"/>
+    <path d="M786 263h110M841 208v110" stroke="#4a6cf7"/>
+    <circle cx="842" cy="263" r="92" fill="#eef2ff"/>
+    <path d="M806 251c23-31 51-31 73 0M809 291h68M823 226v-42M862 226v-42"/>
+    <path d="M968 203h184M968 268h240M968 333h151" opacity=".55"/>
+    <rect x="920" y="154" width="348" height="226" rx="18" fill="#fff" opacity=".72"/>
+  </g>
+  <g font-family="Inter, 'Noto Sans SC', sans-serif" fill="#111820">
+    <text x="225" y="737" font-size="34" font-weight="700">SOLO Powers SOLO</text>
+    <text x="225" y="786" font-size="24" opacity=".62">Person + Agent + Workspace</text>
+    <text x="1170" y="745" font-size="22" font-family="'IBM Plex Mono', monospace" opacity=".48">LIVE TALK / 2026</text>
+  </g>
+</svg>

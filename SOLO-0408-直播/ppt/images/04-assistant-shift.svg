@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">从实习生到超级助理</title>
+  <desc id="desc">AI 从局部补全变为长期异步协作助理的对比图。</desc>
+  <rect width="1600" height="900" fill="#f7f5f2"/>
+  <g fill="none" stroke="#111820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="138" y="178" width="512" height="530" rx="28" fill="#fff"/>
+    <rect x="950" y="178" width="512" height="530" rx="28" fill="#fff"/>
+    <path d="M712 444h152M826 404l48 40-48 40" stroke="#4a6cf7" stroke-width="7"/>
+    <circle cx="280" cy="340" r="54"/>
+    <path d="M280 395v138M224 470h112M238 593l42-60 45 60"/>
+    <rect x="388" y="306" width="164" height="126" rx="16"/>
+    <path d="M416 347h108M416 386h75"/>
+    <path d="M218 643h350" opacity=".35"/>
+    <circle cx="1110" cy="330" r="54"/>
+    <path d="M1110 385v138M1054 460h112M1068 593l42-70 45 70"/>
+    <rect x="1210" y="286" width="152" height="116" rx="18" fill="#eef2ff"/>
+    <path d="M1246 330c25-24 55-24 80 0M1245 365h82M1267 303v-34M1305 303v-34" stroke="#4a6cf7"/>
+    <path d="M1066 642h320M1170 520h188M1170 562h142" opacity=".45"/>
+  </g>
+  <g font-family="Inter, 'Noto Sans SC', sans-serif" fill="#111820">
+    <text x="190" y="242" font-size="34" font-weight="800">高潜实习生</text>
+    <text x="190" y="286" font-size="22" opacity=".62">局部建议 / 人来拼装</text>
+    <text x="1002" y="242" font-size="34" font-weight="800">超级助理</text>
+    <text x="1002" y="286" font-size="22" opacity=".62">异步推进 / 人做判断</text>
+    <text x="714" y="533" font-size="22" font-family="'IBM Plex Mono', monospace" opacity=".55">IN THE LOOP → ON THE LOOP</text>
+  </g>
+</svg>

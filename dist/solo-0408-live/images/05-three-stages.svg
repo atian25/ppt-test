@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Coding 三阶段演进</title>
+  <desc id="desc">AI 辅助编程、AI 结对编程、AI 自主编程从 2 月到 12 月快速演进的三段式示意图。</desc>
+  <rect width="1600" height="900" fill="#f7f5f2"/>
+  <path d="M178 694c218-226 419-270 604-173 151 79 293 69 630-236" fill="none" stroke="#4a6cf7" stroke-width="8" stroke-linecap="round" opacity=".52"/>
+  <g fill="none" stroke="#111820" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="140" y="230" width="360" height="430" rx="28" fill="#fff"/>
+    <rect x="620" y="230" width="360" height="430" rx="28" fill="#fff"/>
+    <rect x="1100" y="230" width="360" height="430" rx="28" fill="#eef2ff"/>
+    <path d="M244 360h152M244 415h112M244 470h136" opacity=".46"/>
+    <circle cx="318" cy="536" r="50"/>
+    <path d="M704 360h190M704 415h142M704 470h160" opacity=".46"/>
+    <circle cx="756" cy="542" r="44"/>
+    <rect x="828" y="504" width="76" height="76" rx="16"/>
+    <path d="M1220 352h134M1220 406h94M1220 460h142" opacity=".46"/>
+    <path d="M1256 548c32-42 76-42 108 0M1260 598h104M1282 514v-50M1342 514v-50" stroke="#4a6cf7"/>
+    <path d="M520 446h78M570 414l36 32-36 32" stroke="#4a6cf7" stroke-width="7"/>
+    <path d="M1000 446h78M1050 414l36 32-36 32" stroke="#4a6cf7" stroke-width="7"/>
+  </g>
+  <g font-family="Inter, 'Noto Sans SC', sans-serif" fill="#111820">
+    <text x="144" y="142" font-size="46" font-weight="800">12 个月，认知被刷新</text>
+    <text x="144" y="196" font-size="25" opacity=".62">年初以为第二阶段会持续一两年，年底就干到第三阶段。</text>
+    <text x="190" y="304" font-size="21" font-family="'IBM Plex Mono', monospace" opacity=".52">FEB</text>
+    <text x="190" y="344" font-size="33" font-weight="800">AI 辅助编程</text>
+    <text x="190" y="620" font-size="21" opacity=".62">IDE 侧边辅助，Tab Tab 还是焦点。</text>
+    <text x="670" y="304" font-size="21" font-family="'IBM Plex Mono', monospace" opacity=".52">JUN</text>
+    <text x="670" y="344" font-size="33" font-weight="800">AI 结对编程</text>
+    <text x="670" y="620" font-size="21" opacity=".62">Agent 主导 IDE，工具被原子化。</text>
+    <text x="1150" y="304" font-size="21" font-family="'IBM Plex Mono', monospace" opacity=".52">DEC</text>
+    <text x="1150" y="344" font-size="33" font-weight="800">AI 自主编程</text>
+    <text x="1150" y="620" font-size="21" opacity=".62">长时间异步并行成为共识。</text>
+    <text x="596" y="746" font-size="23" font-family="'IBM Plex Mono', monospace" opacity=".55">AI ASSISTED → AI PAIRED → AI AUTONOMOUS</text>
+  </g>
+</svg>

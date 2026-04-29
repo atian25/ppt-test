@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SOLO Code 与 Work 模式</title>
+  <desc id="desc">SOLO 从编程场景扩展到通用工作场景，同时支持 PC 与 Web 的双模式示意图。</desc>
+  <rect width="1600" height="900" fill="#f7f5f2"/>
+  <g fill="none" stroke="#111820" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="142" y="206" width="550" height="470" rx="30" fill="#fff"/>
+    <rect x="908" y="206" width="550" height="470" rx="30" fill="#fff"/>
+    <path d="M420 676v92M1180 676v92M344 768h154M1104 768h154" opacity=".45"/>
+    <path d="M230 330h356M230 388h270M230 446h310" opacity=".45"/>
+    <path d="M996 330h356M996 388h280M996 446h224" opacity=".45"/>
+    <path d="M340 536h150M1036 538h260" stroke="#4a6cf7" stroke-width="7"/>
+    <path d="M778 436h142" stroke="#4a6cf7" stroke-width="7"/>
+    <path d="M884 396l52 40-52 40" stroke="#4a6cf7" stroke-width="7"/>
+    <circle cx="417" cy="536" r="72" fill="#eef2ff"/>
+    <path d="M398 512h52M398 544h40"/>
+    <circle cx="1116" cy="536" r="54" fill="#eef2ff"/>
+    <path d="M1102 520h36M1102 552h26"/>
+    <rect x="1200" y="498" width="104" height="76" rx="16" fill="#eef2ff"/>
+    <path d="M1222 526h60M1222 552h42"/>
+    <path d="M764 258c28-40 66-40 94 0M768 306h86M788 228v-42M832 228v-42" stroke="#4a6cf7"/>
+  </g>
+  <g font-family="Inter, 'Noto Sans SC', sans-serif" fill="#111820">
+    <text x="144" y="132" font-size="46" font-weight="800">More Than Coding</text>
+    <text x="144" y="186" font-size="25" opacity=".62">从写代码扩展到研发链路与通用工作流。</text>
+    <text x="214" y="282" font-size="21" font-family="'IBM Plex Mono', monospace" opacity=".52">CODE MODE</text>
+    <text x="214" y="324" font-size="34" font-weight="800">编程场景</text>
+    <text x="214" y="626" font-size="22" opacity=".62">需求、代码、测试、发布、运维</text>
+    <text x="980" y="282" font-size="21" font-family="'IBM Plex Mono', monospace" opacity=".52">WORK MODE</text>
+    <text x="980" y="324" font-size="34" font-weight="800">泛化工作</text>
+    <text x="980" y="626" font-size="22" opacity=".62">调研、文档、会议纪要、知识库</text>
+    <text x="704" y="372" font-size="22" font-family="'IBM Plex Mono', monospace" opacity=".55">PC + WEB</text>
+    <text x="524" y="806" font-size="23" font-family="'IBM Plex Mono', monospace" opacity=".55">VERTICAL CHAIN + HORIZONTAL SCENES</text>
+  </g>
+</svg>

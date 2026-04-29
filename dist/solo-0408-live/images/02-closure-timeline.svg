@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">11 月 15 日闭关时间线</title>
+  <desc id="desc">从加入字节到 MarsCode、TRAE IDE、SOLO 独立版的时间线，以及 2025 年的高频发布节奏。</desc>
+  <rect width="1600" height="900" fill="#f7f5f2"/>
+  <path d="M134 516c178-122 288-123 427-33 125 81 215 91 341-4 148-112 274-103 560 26" fill="none" stroke="#4a6cf7" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+  <g fill="none" stroke="#111820" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 512h1220" opacity=".32"/>
+    <g transform="translate(222 0)">
+      <circle cx="0" cy="512" r="46" fill="#fff"/>
+      <path d="M-16 508h32M0 492v32"/>
+      <path d="M-58 386h116M-58 432h78" opacity=".5"/>
+    </g>
+    <g transform="translate(590 0)">
+      <circle cx="0" cy="512" r="46" fill="#eef2ff"/>
+      <rect x="-26" y="-26" width="52" height="52" rx="12" transform="translate(0 512)"/>
+      <path d="M-14 502h28M-14 522h22"/>
+      <path d="M-70 386h140M-70 432h96" opacity=".5"/>
+    </g>
+    <g transform="translate(958 0)">
+      <circle cx="0" cy="512" r="46" fill="#fff"/>
+      <path d="M-24 512h48M0 488v48"/>
+      <path d="M-64 386h128M-64 432h88" opacity=".5"/>
+    </g>
+    <g transform="translate(1326 0)">
+      <circle cx="0" cy="512" r="46" fill="#eef2ff"/>
+      <path d="M-24 526c16-34 32-34 48 0M-24 498h48M-12 486v-26M12 486v-26"/>
+      <path d="M-80 386h160M-80 432h112" opacity=".5"/>
+    </g>
+    <rect x="175" y="636" width="1250" height="84" rx="22" fill="#fff"/>
+    <path d="M244 678h860" opacity=".26"/>
+    <path d="M244 678h786" stroke="#4a6cf7" stroke-width="9" opacity=".72"/>
+    <path d="M1142 658l40 20-40 20" stroke="#4a6cf7" stroke-width="7"/>
+  </g>
+  <g font-family="Inter, 'Noto Sans SC', sans-serif" fill="#111820">
+    <text x="164" y="210" font-size="46" font-weight="800">一个特殊的日子</text>
+    <text x="164" y="264" font-size="25" opacity=".62">三次闭关之后，SOLO 独立版被推到台前。</text>
+    <text x="164" y="694" font-size="31" font-weight="800">2025：100+ 版本</text>
+    <text x="472" y="694" font-size="23" opacity=".62">平均每 3 天发布一个版本</text>
+    <text x="164" y="354" font-size="22" font-family="'IBM Plex Mono', monospace" opacity=".5">11 / 15 CALLBACK</text>
+    <text x="162" y="590" font-size="25" font-weight="800">2022</text>
+    <text x="126" y="624" font-size="18" opacity=".62">加入字节</text>
+    <text x="526" y="590" font-size="25" font-weight="800">2023</text>
+    <text x="466" y="624" font-size="18" opacity=".62">MarsCode Cloud IDE</text>
+    <text x="894" y="590" font-size="25" font-weight="800">2024</text>
+    <text x="902" y="624" font-size="18" opacity=".62">TRAE IDE</text>
+    <text x="1248" y="590" font-size="25" font-weight="800">2025</text>
+    <text x="1230" y="624" font-size="18" opacity=".62">SOLO 独立版</text>
+    <text x="1200" y="690" font-size="20" font-family="'IBM Plex Mono', monospace" opacity=".55">RUNNING FAST</text>
+  </g>
+</svg>

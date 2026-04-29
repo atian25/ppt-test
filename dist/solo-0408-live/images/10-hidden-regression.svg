@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">隐性破坏</title>
+  <desc id="desc">两个需求并行时，细小交互回归穿过协作边界。</desc>
+  <rect width="1600" height="900" fill="#111820"/>
+  <g fill="none" stroke="#f7f5f2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="140" y="176" width="506" height="520" rx="28" fill="#18212a"/>
+    <rect x="954" y="176" width="506" height="520" rx="28" fill="#18212a"/>
+    <path d="M224 280h338M224 336h238M224 392h288" opacity=".55"/>
+    <path d="M1038 280h338M1038 336h238M1038 392h288" opacity=".55"/>
+    <path d="M646 386c131-70 221-70 308 0" stroke="#4a6cf7" stroke-width="7"/>
+    <path d="M919 345l48 41-56 29" stroke="#4a6cf7" stroke-width="7"/>
+    <path d="M338 556h170M1092 556h170" opacity=".4"/>
+    <circle cx="393" cy="556" r="70"/>
+    <circle cx="1147" cy="556" r="70"/>
+    <path d="M1138 510l24 92M1094 548l101 19" stroke="#ff8a4a" stroke-width="8"/>
+  </g>
+  <g font-family="Inter, 'Noto Sans SC', sans-serif" fill="#f7f5f2">
+    <text x="222" y="246" font-size="34" font-weight="800">需求 A</text>
+    <text x="222" y="642" font-size="22" opacity=".62">页面完成，但细节脆弱</text>
+    <text x="1036" y="246" font-size="34" font-weight="800">需求 B</text>
+    <text x="1036" y="642" font-size="22" opacity=".62">局部改动，引入回归</text>
+    <text x="646" y="482" font-size="23" font-family="'IBM Plex Mono', monospace" opacity=".58">INVISIBLE REGRESSION</text>
+  </g>
+</svg>
